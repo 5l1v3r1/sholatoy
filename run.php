@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Asia/Jakarta');
 function randStr($l){
 	$word = "ab1cde2fgh3ijk4lmn5op6qr7s8tuv9wxy0z";
 	$str = "";
