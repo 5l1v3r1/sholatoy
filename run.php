@@ -75,7 +75,7 @@ echo $getList[0]."\n";
 while(true){
 	echo "Pilih Id/No. Kota		";
 	$id = get();
-	echo "Kamu Yakin Memilih Id $id [".$getList[1][$id]."] (y/n)  ";
+	echo "Kamu Yakin Memilih id $id [".$getList[1][$id]."] (y/n)  ";
 	if(strtolower(get())=="y"){
 		break;
 	}else{
