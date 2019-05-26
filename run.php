@@ -64,7 +64,6 @@ function getTime($id){
 	$data = @file_get_contents("https://jadwalsholat.org/adzan/monthly.php?id=$id");
 	$get = @getStr('align="center"><td><b>'.date("H", time()).'</b>', '</td></tr>', $data);
 	$get = @explode('</td><td>', $get); unset($get[0],$get[1]);
-	$get[1] = date("H:i", time());
 	return $get;
 }
 echo "#################################\n# SPAM TELEPON PENGINGAT SHOLAT	#\n# CREATED BY : @xptra           #\n# QUOTES     : SHOLAT AJG       #\n#################################\n";
